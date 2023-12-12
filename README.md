@@ -1,9 +1,9 @@
-<h1>Introdução ao Pandas e Estatísticas para Desenvolvedores em Python</h1>>
+# Introdução ao Pandas e Estatísticas para Desenvolvedores em Python
 
 O Pandas é uma poderosa biblioteca em Python amplamente utilizada para manipulação e análise de dados. Desenvolvida sobre o Numpy, outra biblioteca popular para computação científica, o Pandas oferece estruturas de dados flexíveis e ferramentas de análise de dados que são essenciais para desenvolvedores que trabalham com tarefas relacionadas à manipulação e exploração de dados.
 Estruturas de Dados no Pandas
 
-<h2>O Pandas fornece duas estruturas de dados principais: Series e DataFrame.</h2>
+## O Pandas fornece duas estruturas de dados principais: Series e DataFrame.
 
     Series: Uma estrutura unidimensional semelhante a um array ou lista, mas com rótulos associados a cada elemento, formando uma série de dados.
 
