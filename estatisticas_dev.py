@@ -6,4 +6,9 @@ print(dict_medidas)
 
 df_medidas = pd.DataFrame.from_dict(dict_medidas)
 
+print("Essas são as medidas")
 print(df_medidas)
+
+print(f"Essa é a média: {df_medidas["idade"].mean()}")
+print(f"Essa é a mediana: {df_medidas["idade"].median()}")
+print(f"Essa é a moda: {df_medidas["idade"].mode()}")
