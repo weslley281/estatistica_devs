@@ -20,3 +20,15 @@ print("----------------------Medidas de Disperção----------------------")
 print(f"A variância é: {df_medidas['idade'].var():.2f}")
 print(f"O desvio padrão é: {df_medidas['idade'].std():.2f}")
 print(f"O coeficiente de variação é: {(df_medidas['idade'].std() / df_medidas['idade'].mean() * 100):.2f}")
+
+print("")
+print("----------------------Medidas de Forma----------------------")
+print(f"Assimetria idade: {df_medidas['idade'].skew():.2f}")
+print(f"Assimetria altura: {df_medidas['altura'].skew():.2f}")
+
+print(f"Curtose idade: {df_medidas['idade'].kurtosis():.2f}")
+print(f"Curtose altura: {df_medidas['altura'].kurtosis():.2f}")
+
+print("")
+print("----------------------Obtr Medidas Estatisticas----------------------")
+print(df_medidas.describe())
