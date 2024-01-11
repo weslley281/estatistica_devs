@@ -37,3 +37,7 @@ print("")
 print("----------------------Correlação de variáveis----------------------")
 print(df_medidas.corr(method='pearson'))
 print(df_medidas.idade.corr(df_medidas.altura))
+
+print("")
+print("----------------------Representações Graficas----------------------")
+print(f"Histograma: {df_medidas.hist()}")
