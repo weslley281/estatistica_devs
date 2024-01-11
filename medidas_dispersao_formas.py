@@ -32,3 +32,8 @@ print(f"Curtose altura: {df_medidas['altura'].kurtosis():.2f}")
 print("")
 print("----------------------Obtr Medidas Estatisticas----------------------")
 print(df_medidas.describe())
+
+print("")
+print("----------------------Correlação de variáveis----------------------")
+print(df_medidas.corr(method='pearson'))
+print(df_medidas.idade.corr(df_medidas.altura))
